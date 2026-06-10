@@ -1,6 +1,6 @@
 import subprocess
 import os
-
+ 
 def run_cli_command(command):
     """Helper to run CLI command and capture output"""
     return subprocess.run(command, capture_output=True, text=True)
